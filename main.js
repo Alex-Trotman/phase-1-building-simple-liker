@@ -3,9 +3,11 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
-
-
+document.addEventListener("DOMContentLoaded", function() {
+  const likeButton = document.getElementsByClassName("like-glyph");
+  likeButton.addEventListener("click", function() {
+    console.log("Button clicked!");})
+});
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
